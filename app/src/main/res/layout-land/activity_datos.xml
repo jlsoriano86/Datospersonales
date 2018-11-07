@@ -163,7 +163,7 @@
 
         <Button
             android:id="@+id/btnGenerar"
-            android:layout_width="90dp"
+            android:layout_width="100dp"
             android:layout_height="68dp"
             android:layout_gravity="left"
             android:drawableTop="@android:drawable/checkbox_on_background"
@@ -172,7 +172,7 @@
 
         <Button
             android:id="@+id/btnBorrar"
-            android:layout_width="90dp"
+            android:layout_width="100dp"
             android:layout_height="68dp"
             android:drawableTop="@android:drawable/ic_delete"
             android:text="@string/textobtnBorrar"
