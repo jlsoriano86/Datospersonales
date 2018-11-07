@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Datos personales</string>
+    <string name="textolblNombre">Nombre </string>
+    <string name="hintNombre">Intoduzca aquí su nombre</string>
+    <string name="textolblApellidos">Apellidos </string>
+    <string name="hintApellidos">Intoduzca aquí sus apellidos</string>
+    <string name="textolblEdad">Edad </string>
+    <string name="textolblSexo">Sexo </string>
+    <string name="textoMujer">Mujer </string>
+    <string name="textoHombre">Hombre </string>
+    <string name="textolblEstado">Estado civil </string>
+
+    <string-array name="eligeEstado">
+        <item>Casado/a</item>
+        <item>Separado/a</item>
+        <item>Viudo/a</item>
+        <item>Soltero/a</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string name="textolblHijos">¿Tiene hijos?</string>
+    <string name="swHijosSi">Si</string>
+    <string name="swHijosNo">No</string>
+
+    <string name="textobtnGenerar">Generar</string>
+    <string name="textobtnBorrar">Borrar</string>
+</resources>

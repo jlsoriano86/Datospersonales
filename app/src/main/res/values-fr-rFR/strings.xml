@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Information personnelle</string>
+    <string name="textolblNombre">Nom</string>
+    <string name="hintNombre">Entrez votre nom ici</string>
+    <string name="textolblApellidos">Nom de famille</string>
+    <string name="hintApellidos">Entrez votre nom de famille ici</string>
+    <string name="textolblEdad">Âge</string>
+    <string name="textolblSexo">Le Sexe</string>
+    <string name="textoMujer">Femme</string>
+    <string name="textoHombre">Homme</string>
+    <string name="textolblEstado">État civil</string>
+    <string name="textolblHijos">Avez-vous des enfants?</string>
+    <string name="swHijosSi">Oui</string>
+    <string name="swHijosNo">Non</string>
+    <string name="textobtnGenerar">Générer</string>
+    <string name="textobtnBorrar">Supprimer</string>
+</resources>

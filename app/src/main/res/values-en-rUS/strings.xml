@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personal information</string>
+    <string name="textolblNombre">Name</string>
+    <string name="hintNombre">Enter your name here</string>
+    <string name="textolblApellidos">Surnames</string>
+    <string name="hintApellidos">Enter your surnames here</string>
+    <string name="textolblEdad">Age</string>
+    <string name="textolblSexo">Sex</string>
+    <string name="textoMujer">Woman</string>
+    <string name="textoHombre">Man</string>
+    <string name="textolblEstado">Marital Status</string>
+    <string name="textolblHijos">Do you have children?</string>
+    <string name="swHijosSi">Yes</string>
+    <string name="swHijosNo">No</string>
+    <string name="textobtnGenerar">Generate</string>
+    <string name="textobtnBorrar">Delete</string>
+</resources>
