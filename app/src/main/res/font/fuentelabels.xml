@@ -3,11 +3,11 @@
 <font
     android:fontStyle="normal"
     android:fontWeight="10"
-    android:font="@font/allerta">
+    android:fontFamily="@font/allerta">
 </font>
     <font
         android:fontStyle="normal"
         android:fontWeight="10"
-        android:font="@font/rasa">
+        android:fontFamily="@font/rasa">
     </font>
 </font-family>
