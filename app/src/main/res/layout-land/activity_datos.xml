@@ -119,7 +119,8 @@
 
         <TextView
             android:id="@+id/txInfo"
-            style="@style/EstiloTextos" />
+            style="@style/EstiloTextos"
+            android:textSize="12sp" />
 
     </LinearLayout>
 
