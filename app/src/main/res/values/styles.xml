@@ -33,23 +33,55 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/textos</item>
         <item name="android:fontFamily">@font/allerta</item>
+        <item name="android:paddingTop">@dimen/miDimension1</item>
+        <item name="android:paddingBottom">@dimen/miDimension1</item>
     </style>
 
     <style name="EstiloTextos">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/textos</item>
+        <item name="android:ems">@dimen/miDimension1</item>
+        <item name="android:inputType">textCapWords|textPersonName</item>
+        <item name="android:fontFamily">@font/rasa</item>
+        <item name="android:paddingTop">@dimen/miDimension1</item>
+        <item name="android:paddingBottom">@dimen/miDimension1</item>
+    </style>
+
+    <style name="EstiloEdad">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/textos</item>
-        <item name="android:ems">10</item>
+        <item name="android:ems">@dimen/miDimension3</item>
+        <item name="android:fontFamily">@font/rasa</item>
+        <item name="android:paddingTop">@dimen/miDimension1</item>
+        <item name="android:paddingBottom">@dimen/miDimension1</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="EstiloBotones">
+        <item name="android:layout_marginLeft">@dimen/miDimension1</item>
+        <item name="android:layout_marginRight">@dimen/miDimension1</item>
+        <item name="android:layout_width">@dimen/miDimension2</item>
+        <item name="android:layout_height">@dimen/miDimension2</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">left</item>
+
+        <item name="android:fontFamily">@font/rasa</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="EstiloResultado">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textos</item>
+        <item name="android:ems">@dimen/miDimension2</item>
         <item name="android:inputType">textCapWords|textPersonName</item>
         <item name="android:fontFamily">@font/rasa</item>
+        <item name="android:paddingTop">@dimen/miDimension1</item>
+        <item name="android:paddingBottom">@dimen/miDimension1</item>
+        <item name="android:textStyle">bold</item>
     </style>
-
-    <style name="EstiloTextos.Edad">
-        <item name="android:ems">3</item>
-        <item name="android:inputType">number</item>
-
-    </style>
-
 
 
 </resources>

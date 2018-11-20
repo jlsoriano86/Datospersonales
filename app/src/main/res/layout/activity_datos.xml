@@ -17,7 +17,7 @@
         <EditText
             android:id="@+id/txNombre"
             style="@style/EstiloTextos"
-            android:hint="@string/hintNombre"/>
+            android:hint="@string/hintNombre" />
     </LinearLayout>
 
     <LinearLayout
@@ -49,40 +49,28 @@
 
         <EditText
             android:id="@+id/txEdad"
-            style="@style/EstiloTextos.Edad"
-            android:inputType="number" />
+            style="@style/EstiloEdad"/>
 
         <RadioGroup
             android:id="@+id/grupoSexo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:orientation="horizontal">
+            style="@style/EstiloLayoutSecundario">
 
             <TextView
                 android:id="@+id/lblSexo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/allerta"
+                style="@style/EstiloLabels"
                 android:text="@string/textolblSexo"
                 android:textColor="@color/textos" />
 
             <RadioButton
                 android:id="@+id/radioMujer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/EstiloLabels"
                 android:checked="true"
-                android:fontFamily="@font/allerta"
                 android:text="@string/textoMujer" />
 
             <RadioButton
                 android:id="@+id/radioHombre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:checked="false"
-                android:fontFamily="@font/allerta"
+                style="@style/EstiloLabels"
                 android:text="@string/textoHombre" />
-
         </RadioGroup>
 
     </LinearLayout>
@@ -93,25 +81,19 @@
 
         <TextView
             android:id="@+id/lblEstado"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/allerta"
+            style="@style/EstiloLabels"
             android:text="@string/textolblEstado"
             android:textColor="@color/textos" />
 
         <Spinner
             android:id="@+id/eligeEstado"
-            android:layout_width="124dp"
-            android:layout_height="wrap_content"
+            style="@style/EstiloLabels"
             android:entries="@array/eligeEstado" />
 
 
         <Switch
             android:id="@+id/swHijos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:fontFamily="@font/allerta"
+            style="@style/EstiloLabels"
             android:showText="true"
             android:text="@string/textolblHijos"
             android:textColor="@color/textos"
@@ -122,44 +104,31 @@
 
     <LinearLayout
         android:id="@+id/layoutBotones"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal"
-        android:paddingTop="10dp">
+        style="@style/EstiloLabels">
 
         <Button
             android:id="@+id/btnGenerar"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="left"
+            style="@style/EstiloBotones"
             android:drawableTop="@android:drawable/checkbox_on_background"
-            android:fontFamily="@font/rasa"
             android:text="@string/textobtnGenerar"
             android:textColor="@color/botones" />
 
         <Button
             android:id="@+id/btnBorrar"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            style="@style/EstiloBotones"
             android:drawableTop="@android:drawable/ic_delete"
             android:text="@string/textobtnBorrar"
             android:textColor="@color/botones" />
-
     </LinearLayout>
-
+<!--
     <LinearLayout
         android:id="@+id/layoutInfo"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        style="@style/EstiloLayoutSecundario">
 
         <TextView
             android:id="@+id/txInfo"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-
-            android:textStyle="bold" />
+            style="@style/EstiloResultado" />
     </LinearLayout>
+    -->
 
 </LinearLayout>

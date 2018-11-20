@@ -2,4 +2,5 @@
 <resources>
     <dimen name="miDimension1">10dp</dimen>
     <dimen name="miDimension2">100dp</dimen>
+    <dimen name="miDimension3">3</dimen>
 </resources>
