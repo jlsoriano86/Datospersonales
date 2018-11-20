@@ -120,7 +120,7 @@
             android:text="@string/textobtnBorrar"
             android:textColor="@color/botones" />
     </LinearLayout>
-<!--
+
     <LinearLayout
         android:id="@+id/layoutInfo"
         style="@style/EstiloLayoutSecundario">
@@ -129,6 +129,5 @@
             android:id="@+id/txInfo"
             style="@style/EstiloResultado" />
     </LinearLayout>
-    -->
 
 </LinearLayout>

@@ -52,7 +52,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/textos</item>
-        <item name="android:ems">@dimen/miDimension3</item>
+        <item name="android:ems">@dimen/miDimension1</item>
         <item name="android:fontFamily">@font/rasa</item>
         <item name="android:paddingTop">@dimen/miDimension1</item>
         <item name="android:paddingBottom">@dimen/miDimension1</item>
