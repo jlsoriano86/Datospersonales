@@ -33,15 +33,15 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/textos</item>
         <item name="android:fontFamily">@font/allerta</item>
-        <!--<item name="android:paddingTop">@dimen/miDimension1</item>
-        <item name="android:paddingBottom">@dimen/miDimension1</item> -->
+       <item name="android:paddingTop">@dimen/miDimension1</item>
+        <item name="android:paddingBottom">@dimen/miDimension1</item>
     </style>
 
     <style name="EstiloTextos">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:textColor">@color/textos</item>
-        <item name="android:ems">@dimen/miDimension1</item>
+        <item name="android:ems">10</item>
         <item name="android:inputType">textCapWords|textPersonName</item>
         <item name="android:fontFamily">@font/rasa</item>
         <item name="android:paddingTop">@dimen/miDimension1</item>
@@ -52,7 +52,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/textos</item>
-        <item name="android:ems">@dimen/miDimension1</item>
+        <item name="android:ems">3</item>
         <item name="android:fontFamily">@font/rasa</item>
         <item name="android:paddingTop">@dimen/miDimension1</item>
         <item name="android:paddingBottom">@dimen/miDimension1</item>
@@ -75,7 +75,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/textos</item>
-        <item name="android:ems">@dimen/miDimension2</item>
+        <item name="android:ems">100</item>
         <item name="android:inputType">textCapWords|textPersonName</item>
         <item name="android:fontFamily">@font/rasa</item>
         <item name="android:paddingTop">@dimen/miDimension1</item>

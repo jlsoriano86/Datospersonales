@@ -17,7 +17,8 @@
         <EditText
             android:id="@+id/txNombre"
             style="@style/EstiloTextos"
-            android:hint="@string/hintNombre" />
+            android:hint="@string/hintNombre"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -33,7 +34,8 @@
         <EditText
             android:id="@+id/txApellidos"
             style="@style/EstiloTextos"
-            android:hint="@string/hintApellidos"/>
+            android:hint="@string/hintApellidos"
+           />
     </LinearLayout>
 
     <LinearLayout
@@ -49,7 +51,8 @@
 
         <EditText
             android:id="@+id/txEdad"
-            style="@style/EstiloEdad"/>
+            style="@style/EstiloEdad"
+           />
 
         <RadioGroup
             android:id="@+id/grupoSexo"

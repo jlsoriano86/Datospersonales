@@ -31,7 +31,7 @@ public class DatosActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_datos);
 
-        
+
 
         txNombre = findViewById(R.id.txNombre);
         txApellidos = findViewById(R.id.txApellidos);
