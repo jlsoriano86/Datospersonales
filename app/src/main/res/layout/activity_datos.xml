@@ -2,88 +2,54 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
-    android:gravity="center_horizontal"
-    android:orientation="vertical"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
+    style="@style/EstiloLayoutPrincipal"
     tools:context=".DatosActivity">
 
     <LinearLayout
         android:id="@+id/LayoutNombre"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        style="@style/EstiloLayoutSecundario">
 
         <TextView
             android:id="@+id/lblNombre"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/textolblNombre"
-            android:textColor="@color/textos" />
+            style="@style/EstiloLabels"
+            android:text="@string/textolblNombre" />
 
         <EditText
             android:id="@+id/txNombre"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:hint="@string/hintNombre"
-            android:inputType="textCapWords|textPersonName" />
+            style="@style/EstiloTextos"
+            android:hint="@string/hintNombre"/>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/LayoutApellidos"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        style="@style/EstiloLayoutSecundario">
 
         <TextView
             android:id="@+id/lblApellidos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/EstiloLabels"
             android:text="@string/textolblApellidos"
             android:textColor="@color/textos" />
 
         <EditText
             android:id="@+id/txApellidos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:hint="@string/hintApellidos"
-            android:inputType="textCapWords|textPersonName"
-            android:text=""
-            tools:capitalize="words" />
-
+            style="@style/EstiloTextos"
+            android:hint="@string/hintApellidos"/>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/LayoutEdadSexo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingTop="10dp">
+        style="@style/EstiloLayoutSecundario">
 
         <TextView
             android:id="@+id/lblEdad"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/EstiloLabels"
+            android:fontFamily="@font/allerta"
             android:text="@string/textolblEdad"
             android:textColor="@color/textos" />
 
         <EditText
             android:id="@+id/txEdad"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="3"
+            style="@style/EstiloTextos.Edad"
             android:inputType="number" />
 
         <RadioGroup
@@ -97,6 +63,7 @@
                 android:id="@+id/lblSexo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta"
                 android:text="@string/textolblSexo"
                 android:textColor="@color/textos" />
 
@@ -105,6 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:checked="true"
+                android:fontFamily="@font/allerta"
                 android:text="@string/textoMujer" />
 
             <RadioButton
@@ -112,6 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:checked="false"
+                android:fontFamily="@font/allerta"
                 android:text="@string/textoHombre" />
 
         </RadioGroup>
@@ -120,31 +89,29 @@
 
     <LinearLayout
         android:id="@+id/LayoutEstado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingTop="10dp">
+        style="@style/EstiloLayoutSecundario">
 
         <TextView
             android:id="@+id/lblEstado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:fontFamily="@font/allerta"
             android:text="@string/textolblEstado"
             android:textColor="@color/textos" />
 
         <Spinner
             android:id="@+id/eligeEstado"
-            android:layout_width="wrap_content"
+            android:layout_width="124dp"
             android:layout_height="wrap_content"
             android:entries="@array/eligeEstado" />
 
 
         <Switch
             android:id="@+id/swHijos"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
+            android:fontFamily="@font/allerta"
             android:showText="true"
             android:text="@string/textolblHijos"
             android:textColor="@color/textos"
@@ -167,6 +134,7 @@
             android:layout_height="100dp"
             android:layout_gravity="left"
             android:drawableTop="@android:drawable/checkbox_on_background"
+            android:fontFamily="@font/rasa"
             android:text="@string/textobtnGenerar"
             android:textColor="@color/botones" />
 
@@ -190,7 +158,7 @@
             android:id="@+id/txInfo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+
             android:textStyle="bold" />
     </LinearLayout>
 

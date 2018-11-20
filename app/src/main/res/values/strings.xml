@@ -10,6 +10,7 @@
     <string name="textoHombre">Hombre </string>
     <string name="textolblEstado">Estado civil </string>
 
+
     <string-array name="eligeEstado">
         <item>Casado/a</item>
         <item>Separado/a</item>

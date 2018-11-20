@@ -8,4 +8,48 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="EstiloLayoutPrincipal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/miDimension1</item>
+        <item name="android:layout_marginRight">@dimen/miDimension1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/miDimension1</item>
+        <item name="android:paddingRight">@dimen/miDimension1</item>
+
+    </style>
+
+    <style name="EstiloLayoutSecundario">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">@dimen/miDimension1</item>
+        <item name="android:paddingBottom">@dimen/miDimension1</item>
+    </style>
+
+    <style name="EstiloLabels">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textos</item>
+        <item name="android:fontFamily">@font/allerta</item>
+    </style>
+
+    <style name="EstiloTextos">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textos</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textCapWords|textPersonName</item>
+        <item name="android:fontFamily">@font/rasa</item>
+    </style>
+
+    <style name="EstiloTextos.Edad">
+        <item name="android:ems">3</item>
+        <item name="android:inputType">number</item>
+
+    </style>
+
+
+
 </resources>
