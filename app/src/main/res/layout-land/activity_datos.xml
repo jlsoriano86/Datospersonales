@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/EstiloLayoutPrincipal"
+    tools:context=".DatosActivity">
+
+    <LinearLayout
+        android:id="@+id/LayoutNombre"
+        style="@style/EstiloLayoutSecundario">
+
+        <TextView
+            android:id="@+id/lblNombre"
+            style="@style/EstiloLabels"
+            android:text="@string/textolblNombre" />
+
+        <EditText
+            android:id="@+id/txNombre"
+            style="@style/EstiloTextos"
+            android:hint="@string/hintNombre"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutApellidos"
+        style="@style/EstiloLayoutSecundario">
+
+        <TextView
+            android:id="@+id/lblApellidos"
+            style="@style/EstiloLabels"
+            android:text="@string/textolblApellidos"
+            android:textColor="@color/textos" />
+
+        <EditText
+            android:id="@+id/txApellidos"
+            style="@style/EstiloTextos"
+            android:hint="@string/hintApellidos"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutEdadSexo"
+        style="@style/EstiloLayoutSecundario">
+
+        <TextView
+            android:id="@+id/lblEdad"
+            style="@style/EstiloLabels"
+            android:fontFamily="@font/allerta"
+            android:text="@string/textolblEdad"
+            android:textColor="@color/textos" />
+
+        <EditText
+            android:id="@+id/txEdad"
+            style="@style/EstiloEdad"
+           />
+
+        <RadioGroup
+            android:id="@+id/grupoSexo"
+            style="@style/EstiloLayoutSecundario">
+
+            <TextView
+                android:id="@+id/lblSexo"
+                style="@style/EstiloLabels"
+                android:text="@string/textolblSexo"
+                android:textColor="@color/textos" />
+
+            <RadioButton
+                android:id="@+id/radioMujer"
+                style="@style/EstiloLabels"
+                android:checked="true"
+                android:text="@string/textoMujer" />
+
+            <RadioButton
+                android:id="@+id/radioHombre"
+                style="@style/EstiloLabels"
+                android:text="@string/textoHombre" />
+
+            <TextView
+                android:id="@+id/lblEstado"
+                style="@style/EstiloLabels"
+                android:text="@string/textolblEstado"
+                android:textColor="@color/textos" />
+
+            <Spinner
+                android:id="@+id/eligeEstado"
+                style="@style/EstiloLabels"
+                android:entries="@array/eligeEstado" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutEstado"
+        style="@style/EstiloLayoutResultado">
+
+
+        <Switch
+            android:id="@+id/swHijos"
+            style="@style/EstiloLabels"
+            android:showText="true"
+            android:text="@string/textolblHijos"
+            android:textColor="@color/textos"
+            android:textOff="@string/swHijosNo"
+            android:textOn="@string/swHijosSi" />
+
+        <Button
+            android:id="@+id/btnGenerar"
+            style="@style/EstiloBotones"
+            android:drawableTop="@android:drawable/checkbox_on_background"
+            android:text="@string/textobtnGenerar"
+            android:textColor="@color/botones" />
+
+        <Button
+            android:id="@+id/btnBorrar"
+            style="@style/EstiloBotones"
+            android:drawableTop="@android:drawable/ic_delete"
+            android:text="@string/textobtnBorrar"
+            android:textColor="@color/botones" />
+
+        <TextView
+            android:id="@+id/txInfo"
+            style="@style/EstiloTextos" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
