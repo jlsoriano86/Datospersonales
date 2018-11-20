@@ -5,4 +5,9 @@
     <color name="colorAccent">#D81B60</color>
     <color name="textos">#114df2</color>
     <color name="botones">#2a7946</color>
+    <color name="tema1">#14d5ea</color>
+    <color name="tema2">#ae1b47</color>
+    <color name="tema3">#ea6218</color>
+    <color name="tema4">#ffe76d</color>
+    <color name="tema5">#424e3c</color>
 </resources>

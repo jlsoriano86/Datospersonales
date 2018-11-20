@@ -98,5 +98,22 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="Theme.AppTheme.Light.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="TemaPersonalizado" parent="Theme.AppTheme.Light.NoActionBar" >
+        <item name="colorPrimary">@color/tema1</item>
+        <item name="colorPrimaryDark">@color/tema2</item>
+        <item name="colorAccent">@color/tema3</item>
+        <item name="android:colorBackground">@color/tema4</item>
+        <item name="android:colorForeground">@color/tema5</item>
+        <item name="android:navigationBarColor">@color/tema5</item>
+        <item name="android:statusBarColor">@color/tema2</item>
+        <item name="android:textColorPrimary">@color/textos</item>
+        <item name="android:textColorSecondary">@color/botones</item>
+        <item name="android:textColorPrimaryInverse">@color/tema2</item>
+        <item name="android:textColorSecondaryInverse">@color/tema2</item>
+        <item name="android:windowBackground">@color/tema4</item>
+    </style>
+
 
 </resources>
