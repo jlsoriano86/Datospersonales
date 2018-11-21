@@ -8,9 +8,28 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="EstiloLayoutPrincipal">
+    <style name="EstiloMatchMatch">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="EstiloMatchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="EstiloWrapWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="EstiloWrapMatch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <style name="EstiloMatchMatch.LayoutPrincipal">
         <item name="android:layout_marginLeft">@dimen/miDimension1</item>
         <item name="android:layout_marginRight">@dimen/miDimension1</item>
         <item name="android:gravity">center_horizontal</item>
@@ -20,26 +39,21 @@
 
     </style>
 
-    <style name="EstiloLayoutSecundario">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="EstiloMatchWrap.LayoutSecundario">
         <item name="android:orientation">horizontal</item>
         <item name="android:paddingTop">@dimen/miDimension1</item>
         <item name="android:paddingBottom">@dimen/miDimension1</item>
     </style>
 
-    <style name="EstiloLabels">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="EstiloWrapWrap.Labels">
         <item name="android:textColor">@color/textos</item>
         <item name="android:fontFamily">@font/allerta</item>
        <item name="android:paddingTop">@dimen/miDimension1</item>
         <item name="android:paddingBottom">@dimen/miDimension1</item>
+
     </style>
 
-    <style name="EstiloTextos">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
+    <style name="EstiloMatchMatch.Textos">
         <item name="android:textColor">@color/textos</item>
         <item name="android:ems">10</item>
         <item name="android:inputType">textCapWords|textPersonName</item>
@@ -48,9 +62,7 @@
         <item name="android:paddingBottom">@dimen/miDimension1</item>
     </style>
 
-    <style name="EstiloEdad">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="EstiloWrapWrap.Edad">
         <item name="android:textColor">@color/textos</item>
         <item name="android:ems">3</item>
         <item name="android:fontFamily">@font/rasa</item>
@@ -60,27 +72,21 @@
     </style>
 
     <style name="EstiloBotones">
-
         <item name="android:layout_width">@dimen/miDimension2</item>
         <item name="android:layout_height">@dimen/miDimension2</item>
         <item name="android:gravity">left</item>
         <item name="android:layout_gravity">left</item>
-
         <item name="android:fontFamily">@font/rasa</item>
         <item name="android:textAlignment">center</item>
     </style>
 
-    <style name="EstiloLayoutResultado">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
+    <style name="EstiloMatchMatch.LayoutResultado">
         <item name="android:orientation">horizontal</item>
 
 
     </style>
 
-    <style name="EstiloResultado">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
+    <style name="EstiloMatchMatch.Resultado">
         <item name="android:textColor">@color/textos</item>
         <item name="android:inputType">textCapWords|textPersonName|textMultiLine</item>
         <item name="android:fontFamily">@font/rasa</item>
@@ -89,14 +95,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="EstiloResultadoLand">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:textColor">@color/textos</item>
-        <item name="android:inputType">textCapWords|textPersonName|textMultiLine</item>
-        <item name="android:fontFamily">@font/rasa</item>
-        <item name="android:textStyle">bold</item>
-    </style>
+
 
     <style name="Theme.AppTheme.Light.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar" />
 

@@ -2,77 +2,77 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    style="@style/EstiloLayoutPrincipal"
+    style="@style/EstiloMatchMatch.LayoutPrincipal"
     tools:context=".DatosActivity">
 
     <LinearLayout
         android:id="@+id/LayoutNombre"
-        style="@style/EstiloLayoutSecundario">
+        style="@style/EstiloMatchWrap.LayoutSecundario">
 
         <TextView
             android:id="@+id/lblNombre"
-            style="@style/EstiloLabels"
+            style="@style/EstiloWrapWrap.Labels"
             android:text="@string/textolblNombre" />
 
         <EditText
             android:id="@+id/txNombre"
-            style="@style/EstiloTextos"
+            style="@style/EstiloMatchMatch.Textos"
             android:hint="@string/hintNombre"
             />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/LayoutApellidos"
-        style="@style/EstiloLayoutSecundario">
+        style="@style/EstiloMatchWrap.LayoutSecundario">
 
         <TextView
             android:id="@+id/lblApellidos"
-            style="@style/EstiloLabels"
+            style="@style/EstiloWrapWrap.Labels"
             android:text="@string/textolblApellidos"
             android:textColor="@color/textos" />
 
         <EditText
             android:id="@+id/txApellidos"
-            style="@style/EstiloTextos"
+            style="@style/EstiloMatchMatch.Textos"
             android:hint="@string/hintApellidos"
            />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/LayoutEdadSexo"
-        style="@style/EstiloLayoutSecundario">
+        style="@style/EstiloMatchWrap.LayoutSecundario">
 
         <TextView
             android:id="@+id/lblEdad"
-            style="@style/EstiloLabels"
+            style="@style/EstiloWrapWrap.Labels"
             android:fontFamily="@font/allerta"
             android:text="@string/textolblEdad"
             android:textColor="@color/textos" />
 
         <EditText
             android:id="@+id/txEdad"
-            style="@style/EstiloEdad"
+            style="@style/EstiloWrapWrap.Edad"
            />
 
         <RadioGroup
             android:id="@+id/grupoSexo"
-            style="@style/EstiloLayoutSecundario">
+            style="@style/EstiloMatchWrap.LayoutSecundario">
 
             <TextView
                 android:id="@+id/lblSexo"
-                style="@style/EstiloLabels"
+                style="@style/EstiloWrapWrap.Labels"
                 android:text="@string/textolblSexo"
                 android:textColor="@color/textos" />
 
             <RadioButton
                 android:id="@+id/radioMujer"
-                style="@style/EstiloLabels"
+                style="@style/EstiloWrapWrap.Labels"
                 android:checked="true"
                 android:text="@string/textoMujer" />
 
             <RadioButton
                 android:id="@+id/radioHombre"
-                style="@style/EstiloLabels"
+                style="@style/EstiloWrapWrap.Labels"
                 android:text="@string/textoHombre" />
         </RadioGroup>
 
@@ -80,23 +80,23 @@
 
     <LinearLayout
         android:id="@+id/LayoutEstado"
-        style="@style/EstiloLayoutSecundario">
+        style="@style/EstiloMatchWrap.LayoutSecundario">
 
         <TextView
             android:id="@+id/lblEstado"
-            style="@style/EstiloLabels"
+            style="@style/EstiloWrapWrap.Labels"
             android:text="@string/textolblEstado"
             android:textColor="@color/textos" />
 
         <Spinner
             android:id="@+id/eligeEstado"
-            style="@style/EstiloLabels"
+            style="@style/EstiloWrapWrap.Labels"
             android:entries="@array/eligeEstado" />
 
 
         <Switch
             android:id="@+id/swHijos"
-            style="@style/EstiloLabels"
+            style="@style/EstiloWrapWrap.Labels"
             android:showText="true"
             android:text="@string/textolblHijos"
             android:textColor="@color/textos"
@@ -107,7 +107,7 @@
 
     <LinearLayout
         android:id="@+id/layoutBotones"
-        style="@style/EstiloLabels">
+        style="@style/EstiloWrapWrap.Labels">
 
         <Button
             android:id="@+id/btnGenerar"
@@ -126,11 +126,11 @@
 
     <LinearLayout
         android:id="@+id/layoutInfo"
-        style="@style/EstiloLayoutSecundario">
+        style="@style/EstiloMatchWrap.LayoutSecundario">
 
         <TextView
             android:id="@+id/txInfo"
-            style="@style/EstiloResultado" />
+            style="@style/EstiloMatchMatch.Resultado" />
     </LinearLayout>
 
 </LinearLayout>
